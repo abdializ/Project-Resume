@@ -1,0 +1,46 @@
+[
+  {
+    "apps": [
+      "Visual Studio Code",
+      "Safari",
+      "Slack"
+    ],
+    "createdAt": "2026-01-10T15:00:00Z",
+    "folderLaunchMode": "vscode",
+    "folderPath": "/Users/Shared/AcmeDashboard",
+    "id": "B5536568-A21C-4689-B8D2-AF0D8E7E41B3",
+    "lastNote": "Resume the release checklist and verify the staging deploy.",
+    "name": "Acme Dashboard",
+    "projectDescription": "Frontend workspace for the main customer dashboard.",
+    "terminalCommands": [
+      "npm install",
+      "npm run dev"
+    ],
+    "updatedAt": "2026-03-11T09:30:00Z",
+    "urls": [
+      "https://github.com/example/acme-dashboard",
+      "https://linear.app/"
+    ]
+  },
+  {
+    "apps": [
+      "Numbers",
+      "Notes"
+    ],
+    "createdAt": "2026-02-04T12:45:00Z",
+    "folderLaunchMode": "finder",
+    "folderPath": "/Users/Shared/ClientAudit",
+    "id": "4D0FC3E7-DF3A-4A84-B7C1-5A93A6B4D9F1",
+    "lastNote": "Check the missing invoice references before the client call.",
+    "name": "Client Audit",
+    "projectDescription": "Review notes, spreadsheet work, and browser links for the quarterly audit.",
+    "terminalCommands": [
+      "git status"
+    ],
+    "updatedAt": "2026-03-13T18:10:00Z",
+    "urls": [
+      "https://docs.google.com/",
+      "https://calendar.google.com/"
+    ]
+  }
+]

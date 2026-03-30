@@ -1,0 +1,43 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="tile" x1="240" y1="180" x2="784" y2="844" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F3EBDD"/>
+      <stop offset="1" stop-color="#DED0BC"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="360" y1="292" x2="676" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#302D29"/>
+      <stop offset="1" stop-color="#171614"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="434" y1="430" x2="630" y2="592" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EA7A58"/>
+      <stop offset="1" stop-color="#C94D32"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="1024" height="1024" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="24"/>
+      <feGaussianBlur stdDeviation="24"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.15 0 0 0 0 0.12 0 0 0 0 0.09 0 0 0 0.18 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_2"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_2" result="shape"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#shadow)" transform="translate(-87 -87) scale(1.17)">
+    <rect x="170" y="132" width="684" height="760" rx="202" fill="url(#tile)"/>
+    <rect x="274" y="260" width="476" height="476" rx="142" fill="url(#panel)"/>
+
+    <rect x="336" y="316" width="222" height="20" rx="10" fill="#F6F1E8" fill-opacity="0.22"/>
+    <circle cx="370" cy="326" r="6" fill="#EA7A58"/>
+    <circle cx="394" cy="326" r="6" fill="#E9C46A"/>
+    <circle cx="418" cy="326" r="6" fill="#7FB069"/>
+
+    <path d="M422 431C422 417.254 436.91 408.658 448.839 415.544L580.701 491.678C592.63 498.565 592.63 515.786 580.701 522.673L448.839 598.807C436.91 605.693 422 597.097 422 583.351V431Z" fill="url(#accent)"/>
+
+    <rect x="336" y="624" width="230" height="24" rx="12" fill="#F6F1E8" fill-opacity="0.18"/>
+    <rect x="336" y="666" width="152" height="24" rx="12" fill="#F6F1E8" fill-opacity="0.12"/>
+
+    <path d="M626 404C672.937 442.668 702 500.916 702 566C702 681.427 608.427 775 493 775" stroke="#EA7A58" stroke-width="34" stroke-linecap="round"/>
+    <path d="M602 400H673V471" stroke="#EA7A58" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
