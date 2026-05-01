@@ -6,7 +6,7 @@
   <title>Project Resume | Resume Work Without Rebuilding Context</title>
   <meta
     name="description"
-    content="Project Resume is a modern macOS workspace launcher that saves your apps, links, commands, and notes so you can jump back into work instantly."
+    content="Project Resume is a modern macOS workspace launcher that saves apps, links, commands, and notes so you can jump back into work instantly."
   >
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,17 +20,15 @@
   <div class="page-shell">
     <header class="topbar">
       <a class="brand" href="#top" aria-label="Project Resume home">
-        <img src="../Assets/Brand/pr-menu-clean.svg" alt="Project Resume logo">
+        <img src="./assets/project-resume-mark.svg" alt="Project Resume logo">
         <span>Project Resume</span>
       </a>
 
       <nav class="topnav" aria-label="Primary">
-        <a href="#features">Features</a>
-        <a href="#workflow">Workflow</a>
-        <a href="#challenge">Challenge</a>
+        <a href="#product">Product</a>
+        <a href="#flow">Flow</a>
+        <a href="#launch">Launch</a>
       </nav>
-
-      <a class="nav-cta" href="#launch">Coming Soon</a>
     </header>
 
     <main id="top">
@@ -38,35 +36,35 @@
         <div class="hero-copy">
           <div class="eyebrow">
             <span class="eyebrow-dot"></span>
-            macOS workspace memory, redesigned
+            workspace memory for macOS
           </div>
 
           <h1>
-            Stop rebuilding your workflow.
-            <span>Resume it.</span>
+            Pick up exactly
+            <span>where work left off.</span>
           </h1>
 
           <p class="hero-body">
-            Project Resume remembers the real shape of your work: the apps you use,
-            the tabs you depend on, the commands you always rerun, and the note you
-            needed to see first. Open one project and your context comes back with it.
+            Project Resume saves the real shape of a project session:
+            apps, links, commands, notes, launch context, and a fast quick-access surface you
+            can trigger anytime from anywhere on your Mac.
           </p>
 
-          <div class="hero-actions" id="launch">
-            <a class="primary-button" href="#challenge">See the Story</a>
-            <a class="secondary-button" href="#workflow">Explore the Flow</a>
+          <div class="hero-actions">
+            <a class="primary-button" href="#launch">Coming to Mac Soon</a>
+            <a class="secondary-button" href="https://github.com/abdializ/Project-Resume">View Project</a>
           </div>
 
-          <div class="launch-note">
-            <strong>Coming to Mac very soon.</strong>
-            Final public beta packaging depends on Apple Developer approval,
-            signing, and notarization. The product and experience are live now.
+          <div class="launch-note" id="launch">
+            Public Mac release is being prepared now.
+            Distribution timing depends on Apple Developer approval,
+            signing, and notarization for the first clean public build.
           </div>
         </div>
 
-        <div class="hero-visual" aria-hidden="true">
-          <div class="orb orb-one"></div>
-          <div class="orb orb-two"></div>
+        <div class="hero-visual">
+          <div class="hero-glow hero-glow-one"></div>
+          <div class="hero-glow hero-glow-two"></div>
           <figure class="hero-screenshot">
             <img
               src="./assets/project-resume-mainview.png"
@@ -76,144 +74,130 @@
         </div>
       </section>
 
-      <section class="proof-strip" aria-label="Value summary">
-        <div class="proof-card">
-          <span class="proof-label">Built for</span>
-          <strong>developers, founders, students, operators</strong>
+      <section class="summary-strip" id="product" aria-label="Core value">
+        <div class="summary-item">
+          <span class="summary-label">One action</span>
+          <strong>Resume a full working setup instantly</strong>
         </div>
-        <div class="proof-card">
-          <span class="proof-label">Core promise</span>
-          <strong>resume work in one action instead of rebuilding context</strong>
+        <div class="summary-item">
+          <span class="summary-label">Local first</span>
+          <strong>Private, quiet, and built for real daily workflows</strong>
         </div>
-        <div class="proof-card">
-          <span class="proof-label">Product shape</span>
-          <strong>local-first, private, quiet, fast</strong>
+        <div class="summary-item">
+          <span class="summary-label">Made for macOS</span>
+          <strong>Menu bar, widgets, quick access, themes, and session capture</strong>
         </div>
       </section>
 
-      <section class="features-section" id="features">
+      <section class="feature-section">
         <div class="section-heading">
           <span class="section-kicker">Why it matters</span>
-          <h2>Your project is more than a folder.</h2>
+          <h2>Your project is not just a folder.</h2>
           <p>
-            Most tools reopen files. Project Resume reopens the environment around the work:
-            apps, links, commands, session context, and the note that keeps momentum alive.
+            Most tools reopen files. Project Resume reopens the environment around the work,
+            so the setup friction disappears.
           </p>
         </div>
 
-        <div class="feature-grid">
-          <article class="feature-card feature-large">
-            <span class="feature-tag">Context</span>
-            <h3>Save the actual shape of a working session.</h3>
-            <p>
-              Capture a live session or create a project manually. Store the workspace folder,
-              reopen apps, important URLs, terminal commands, and your next-step note.
-            </p>
+        <div class="feature-lines">
+          <article class="feature-line">
+            <h3>Capture a session that already exists.</h3>
+            <p>Turn active work into a reusable launch state instead of rebuilding it tomorrow.</p>
           </article>
-
-          <article class="feature-card">
-            <span class="feature-tag">Speed</span>
-            <h3>Reopen in one launch.</h3>
-            <p>
-              Instead of hunting through tabs, editors, and notes, your setup comes back
-              as a single move.
-            </p>
+          <article class="feature-line">
+            <h3>Trigger Quick Access from anywhere.</h3>
+            <p>Open a centered command space at any time to resume the last project, save a session, or jump straight into a workspace.</p>
           </article>
-
-          <article class="feature-card">
-            <span class="feature-tag">Memory</span>
-            <h3>Widgets and quick access keep the current project close.</h3>
-            <p>
-              The product is designed to shorten the distance between “I should get back to this”
-              and actually being back in it.
-            </p>
+          <article class="feature-line">
+            <h3>Store the important context, not noise.</h3>
+            <p>Apps, web links, commands, folder, and the note that tells you what matters next.</p>
           </article>
-
-          <article class="feature-card">
-            <span class="feature-tag">Privacy</span>
-            <h3>Local-first by default.</h3>
-            <p>
-              Project Resume stores lightweight references on-device. It does not need to become
-              another cloud workspace just to be useful.
-            </p>
+          <article class="feature-line">
+            <h3>Make the app feel like yours.</h3>
+            <p>Choose from multiple appearance themes so the workspace fits your taste instead of forcing one fixed visual style.</p>
+          </article>
+          <article class="feature-line">
+            <h3>Reopen work without mental reset time.</h3>
+            <p>Less tab hunting, less remembering, more immediate momentum.</p>
+          </article>
+          <article class="feature-line">
+            <h3>Private by design and local to your machine.</h3>
+            <p>Your project data stays on-device. Project Resume is built around local storage, lightweight references, and a privacy-first workflow.</p>
           </article>
         </div>
       </section>
 
-      <section class="workflow-section" id="workflow">
+      <section class="showcase-section">
+        <div class="showcase-copy">
+          <span class="section-kicker">Quick Access</span>
+          <h2>Open the app from anywhere.</h2>
+          <p>
+            Quick Access acts like a lightweight command space for your work. Trigger it from
+            anywhere on macOS, search your saved projects instantly, save a new session, resume
+            the last workspace, or jump into settings without breaking focus.
+          </p>
+        </div>
+
+        <figure class="showcase-shot">
+          <img
+            src="./assets/project-resume-quick-access.png"
+            alt="Project Resume Quick Access panel with search, workspace actions, and saved projects"
+          >
+        </figure>
+      </section>
+
+      <section class="flow-section" id="flow">
         <div class="section-heading narrow">
           <span class="section-kicker">How it works</span>
-          <h2>A simple loop built for real work.</h2>
+          <h2>A simple loop for serious work.</h2>
         </div>
 
-        <div class="workflow-steps">
-          <article class="step-card">
-            <span class="step-number">01</span>
-            <h3>Capture or create</h3>
-            <p>
-              Start from a clean project form or capture the session you already have open.
-            </p>
+        <div class="flow-grid">
+          <article class="flow-step">
+            <span class="flow-number">01</span>
+            <h3>Create or capture</h3>
+            <p>Start clean or save the session that is already open.</p>
           </article>
-          <article class="step-card">
-            <span class="step-number">02</span>
-            <h3>Save the working context</h3>
-            <p>
-              Add the folder, apps, links, commands, and one note that matters most.
-            </p>
+          <article class="flow-step">
+            <span class="flow-number">02</span>
+            <h3>Save the setup</h3>
+            <p>Keep the folder, apps, links, commands, and note in one place.</p>
           </article>
-          <article class="step-card">
-            <span class="step-number">03</span>
+          <article class="flow-step">
+            <span class="flow-number">03</span>
             <h3>Resume instantly</h3>
-            <p>
-              Return later and reopen the environment without mentally reconstructing it.
-            </p>
+            <p>Return later and reopen your working state without reconstructing it.</p>
           </article>
         </div>
       </section>
 
-      <section class="challenge-section" id="challenge">
-        <div class="challenge-panel">
-          <div class="challenge-copy">
-            <span class="section-kicker">For the Codex challenge</span>
-            <h2>A calmer answer to workflow fragmentation on macOS.</h2>
-            <p>
-              Project Resume is built around a narrow but high-frequency problem: every serious
-              project has setup friction. The product removes that friction with a launcher that
-              remembers the environment, not just the files.
-            </p>
-            <p>
-              The current build is already functional across session capture, widget support,
-              quick access, menu bar launching, and project memory. Public Mac distribution is
-              the next packaging step, pending Apple Developer approval for release signing.
-            </p>
-          </div>
+      <section class="showcase-section showcase-section-reverse">
+        <figure class="showcase-shot">
+          <img
+            src="./assets/project-resume-appearance.png"
+            alt="Project Resume appearance settings showing multiple accent themes"
+          >
+        </figure>
 
-          <div class="challenge-list">
-            <div class="list-card">
-              <span class="list-label">What stands out</span>
-              <ul>
-                <li>Session-aware project capture</li>
-                <li>Menu bar + widget + quick access surfaces</li>
-                <li>Typography-first minimal design direction</li>
-                <li>Strong direct-download product story for macOS</li>
-              </ul>
-            </div>
-          </div>
+        <div class="showcase-copy">
+          <span class="section-kicker">Appearance</span>
+          <h2>Different looks, same calm product.</h2>
+          <p>
+            Project Resume supports multiple appearance themes so the workspace can feel personal
+            without losing its minimal design language. The visual system stays quiet, clean, and
+            native while still giving users choice.
+          </p>
         </div>
       </section>
 
-      <section class="cta-section">
-        <div class="cta-panel">
-          <span class="section-kicker">Availability</span>
-          <h2>Coming to Mac very soon.</h2>
+      <section class="closing-section">
+        <div class="closing-panel">
+          <span class="section-kicker">Project Resume</span>
+          <h2>A calmer way back into work.</h2>
           <p>
-            The product is ready to be shown now. Public install polish depends on Apple signing
-            and notarization, but the experience, system, and product direction are already live.
+            The product is already live in function and design direction.
+            Public Mac availability is the final packaging step.
           </p>
-          <div class="cta-actions">
-            <a class="primary-button" href="https://github.com/abdializ/Project-Resume">View Project</a>
-            <a class="secondary-button" href="#top">Back to Top</a>
-          </div>
         </div>
       </section>
     </main>
