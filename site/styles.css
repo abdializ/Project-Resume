@@ -281,8 +281,10 @@ body::before {
 }
 
 .feature-section,
+.difference-section,
 .flow-section,
 .showcase-section,
+.proof-section,
 .closing-section {
   padding-top: 40px;
 }
@@ -337,6 +339,52 @@ body::before {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 16px;
+}
+
+.difference-lines,
+.proof-lines {
+  display: grid;
+  gap: 0;
+}
+
+.difference-line,
+.proof-line {
+  display: grid;
+  grid-template-columns: 52px minmax(0, 1fr);
+  gap: 18px;
+  align-items: start;
+  padding: 20px 0;
+  border-top: 1px solid var(--line);
+}
+
+.difference-line:last-child,
+.proof-line:last-child {
+  border-bottom: 1px solid var(--line);
+}
+
+.difference-line span {
+  color: var(--accent);
+  font-size: 0.84rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.difference-line p,
+.proof-line span {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.75;
+}
+
+.proof-line strong {
+  display: inline-block;
+  min-width: 190px;
+  margin-right: 14px;
+  letter-spacing: -0.03em;
+}
+
+.proof-line {
+  grid-template-columns: 190px minmax(0, 1fr);
 }
 
 .showcase-section {
@@ -412,7 +460,8 @@ body::before {
   .hero,
   .feature-line,
   .showcase-section,
-  .showcase-section-reverse {
+  .showcase-section-reverse,
+  .proof-line {
     grid-template-columns: 1fr;
   }
 
